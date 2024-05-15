@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="PIZZA.JS"></script>
+</head>
+<body style="background-color: bisque;">
+    <h1 style="background-color: red; text-align: center;" id="title">Armaan's Pizzaria</h1>
+    <fieldset style="text-align: center;">
+    
+
+    <label for=""></label>
+    <legend"> Choose Size:</legend> 
+    <input type="checkbox" name="op" value="15">Large $15
+    <input type="checkbox" name="op" value="10">Small $10
+<br>
+<br>
+<legend">Choose Topings:</legend> 
+    <input type="checkbox" name="op" value="3">Pepper $3
+<input type="checkbox" name="op" value="3">Mushroom $3
+<input type="checkbox" name="op" value="5">Chicken 5$
+<input type="checkbox" name="op" value="2">Olives 2$
+<br>
+<br>
+   
+    
+</fieldset>
+<fieldset style="text-align: center;">
+    <h1>Receipt</h1>
+    Without Tax:<p id="out1"></p>
+    Tax:<p id="out2"></p>
+    Total and Tax:<p id="out3"></p>
+    
+    <input type="button" Value="Submit" onclick="calc()">
+    <input type="button" Value="Reset" onclick="reset()">
+
+
+</fieldset>
+
+
+
+
+</body>
+</html>
